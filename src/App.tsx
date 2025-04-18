@@ -2,8 +2,8 @@ import { Outlet } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="text-3xl bg-green-500">
+    <main className="bg-main text-primary p-4">
       <Outlet />
-    </div>
+    </main>
   );
 }
